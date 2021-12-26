@@ -10,11 +10,4 @@ if(args === 'config') {
     console.log(`${args} unknown command`)
 } else {
     weather.getDailyForcast()
-    console.log('get weather')
-    let name = weatherConfig.getApiName()
-    console.log(name)
-    let apiKey = weatherConfig.getApiKey()
-    console.log(apiKey)
-    let zip = weatherConfig.getZipCode()
-    console.log(zip)
 }
