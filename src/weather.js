@@ -41,15 +41,13 @@ module.exports = {
         let location = data.name
         let timezone = data.timezone
 
-        console.log(`Today's Forcast for ${location}\n`)        
-        console.log(`Current Temp: ${currentTemp}\n
-        High: ${maxTemp}\n
-        Low: ${minTemp}\n`)
-        console.log(`Description: ${description}\n`)
-        console.log(`Main: ${mainDes}\n`)
-        console.log(`Sunrise: ${sunrise.getHours()}:${sunrise.getMinutes()}\n`)
-        console.log(`Sunset: ${sunset.getHours()}:${sunset.getMinutes()}\n`)
-        console.log(`Location: ${location}\n`)
-        console.log(`Timezone: ${timezone}\n`)
+        console.log(`   Today's Forcast for ${location}\n`)        
+        console.log(`
+        Current Temp: ${Math.round(currentTemp)}\n
+        High: ${Math.round(maxTemp)}\n
+        Low: ${Math.round(minTemp)}\n
+        Description: ${description}\n
+        Sunrise: ${sunrise.toLocaleTimeString()}\n
+        Sunset: ${sunset.toLocaleTimeString()}\n`)
     }
 }

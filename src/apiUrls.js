@@ -5,13 +5,9 @@
 
 module.exports = {
     buildApiUrl: (apiKey, zip, apiName) => {
-        console.log(zip)
         let url = `${apiUrls[apiName]}zip=${zip},us&appid=${apiKey}&units=imperial`
         return url
     }
     
 }
 
-//export {
-//    apiUrls
-//};
