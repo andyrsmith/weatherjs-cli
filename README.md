@@ -11,7 +11,7 @@ npm i -g path-to-repo
 
 Requires API Key from OpenWeatherAPI. Sign up for a free account below.
 [https://openweathermap.org/api](https://openweathermap.org/api)
-run weather setup
+run weather config
 
 Enter api key and zipCode
 
@@ -21,6 +21,5 @@ run comand weather in command line
 
 ## Todo
 
-- Zipcode is hard coded should be able to enter a zipCode of your choose.
 - Add weather symbols to the forcast
 
