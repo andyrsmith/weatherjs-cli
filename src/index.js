@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const weatherConfig = require("./weatherConfig")
 const configure = require("./configure")
 const weather = require("./weather")
 const args = process.argv[2]
